@@ -30,11 +30,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1      &kp N2          &kp N3       &kp N4     &kp N5  &tog 1                                                          &mo 3         &kp N6  &kp N7  &kp N8       &kp N9          &kp N0              &kp MINUS
-&kp TAB    &kp Q       &kp W           &kp E        &kp R      &kp T   &none                                                           &none         &kp Y   &kp U   &kp I        &kp O           &kp P               &kp BACKSPACE
-&kp ESC    &hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D  &kp F      &kp G   &none            &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none         &kp H   &kp J   &hm LCTRL K  &hm LEFT_ALT L  &hm RGUI SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z       &kp X           &kp C        &kp V      &kp B                               &kp HOME      &kp PG_UP                           &kp N   &kp M   &kp COMMA    &kp DOT         &kp FSLH            &kp MINUS
-&mo 2      &kp GRAVE   &kp CAPS        &kp LEFT     &kp LC(A)          &lt 1 BACKSPACE  &kp SPACE  &kp END       &kp PG_DN  &kp ENTER  &lt 2 DELETE          &to 1   &kp DOWN     &kp LBKT        &kp RBKT            &mo 2
+&kp EQUAL  &kp N1      &kp N2          &kp N3       &kp N4     &kp N5  &tog 1                                                                     &mo 3         &kp N6  &kp N7  &kp N8       &kp N9          &kp N0              &kp MINUS
+&kp TAB    &kp Q       &kp W           &kp E        &kp R      &kp T   &none                                                                      &none         &kp Y   &kp U   &kp I        &kp O           &kp P               &kp BACKSPACE
+&kp ESC    &hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D  &kp F      &kp G   &none            &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL             &none         &kp H   &kp J   &hm LCTRL K  &hm LEFT_ALT L  &hm RGUI SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z       &kp X           &kp C        &kp V      &kp B                               &kp HOME      &kp PG_UP                                      &kp N   &kp M   &kp COMMA    &kp DOT         &kp FSLH            &kp MINUS
+&mo 2      &kp GRAVE   &kp CAPS        &kp LEFT     &kp LC(A)          &lt 1 BACKSPACE  &kp SPACE  &kp END       &kp PG_DN  &hm LEFT_SHIFT ENTER  &lt 2 DELETE          &to 1   &kp DOWN     &kp LBKT        &kp RBKT            &mo 2
             >;
         };
 
@@ -42,8 +42,8 @@
             display-name = "Kp";
             bindings = <
 &kp F1     &kp F2     &kp F3           &kp F4                &kp F5                 &kp F6         &trans                                                   &mo 3   &kp F7     &kp F8        &kp F9        &kp F10       &kp F11        &kp F12
-&kp TAB    &kp Q      &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH       &none                                                    &none   &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp KP_MINUS   &kp BSLH
-&kp ESC    &kp A      &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp H      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSLASH  &kp SQT
+&kp TAB    &kp Q      &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH       &none                                                    &none   &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp KP_MINUS   &kp BACKSPACE
+&kp ESC    &kp A      &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp H      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSLASH  &kp GRAVE
 &kp LSHFT  &kp Z      &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND                       &kp HOME      &kp PG_UP                     &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp RSHFT
 &mo 2      &kp GRAVE  &kp CAPS         &kp LEFT              &to 0                                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp N0             &to 2         &kp DOWN      &kp KP_DOT    &kp RBKT       &mo 2
             >;
@@ -52,11 +52,11 @@
         nav {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                      &mo 3   &kp F7          &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &kp LA(NUMBER_1)  &none                                       &none   &trans          &trans    &kp LA(TAB)   &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &kp LA(NUMBER_1)  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &kp LA(NUMBER_3)                  &trans      &trans                  &trans          &trans    &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &to 0                     &trans  &trans  &trans      &trans  &trans  &trans                  &to 0     &trans        &trans     &trans   &trans
+&kp F1  &kp F2                     &kp F3                     &kp F4                  &kp F5            &kp F6            &tog 1                                      &mo 3   &kp F7          &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
+&trans  &trans                     &trans                     &trans                  &trans            &kp LA(NUMBER_1)  &none                                       &none   &trans          &trans    &kp LA(TAB)   &trans     &trans   &trans
+&trans  &hm LEFT_WIN LA(NUMBER_4)  &hm LEFT_ALT LA(NUMBER_3)  &hm LCTRL LA(NUMBER_2)  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans   &trans
+&trans  &trans                     &trans                     &trans                  &trans            &kp LA(NUMBER_3)                  &trans      &trans                  &trans          &trans    &trans        &trans     &trans   &trans
+&trans  &trans                     &trans                     &trans                  &to 0                               &trans  &trans  &trans      &trans  &trans  &trans                  &to 0     &trans        &trans     &trans   &trans
             >;
         };
 
