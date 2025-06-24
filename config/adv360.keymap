@@ -41,11 +41,11 @@
         keypad {
             display-name = "Kp";
             bindings = <
-&kp F1     &kp F2     &kp F3           &kp F4                &kp F5                 &kp F6         &trans                                                   &mo 3   &kp F7     &kp F8        &kp F9        &kp F10       &kp F11        &kp F12
-&kp TAB    &kp Q      &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH       &none                                                    &none   &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp KP_MINUS   &kp BACKSPACE
-&kp ESC    &kp A      &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp H      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSLASH  &kp GRAVE
-&kp LSHFT  &kp Z      &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND                       &kp HOME      &kp PG_UP                     &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS         &kp LEFT              &to 0                                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp N0             &to 2         &kp DOWN      &kp KP_DOT    &kp RBKT       &mo 2
+&kp F1     &kp F2     &kp F3                &kp F4                      &kp F5                 &kp F6         &trans                                                   &mo 3   &kp F7     &kp F8        &kp F9        &kp F10       &kp F11        &kp F12
+&kp TAB    &kp Q      &kp EXCLAMATION       &kp LEFT_BRACE              &kp RIGHT_BRACE        &kp HASH       &none                                                    &none   &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp KP_MINUS   &kp BACKSPACE
+&kp ESC    &kp A      &hm LEFT_ALT AT_SIGN  &hm LCTRL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp H      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSLASH  &kp GRAVE
+&kp LSHFT  &kp Z      &kp PERCENT           &kp LEFT_BRACKET            &kp RIGHT_BRACKET      &kp AMPERSAND                       &kp HOME      &kp PG_UP                     &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS              &kp LEFT                    &to 0                                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp N0             &to 2         &kp DOWN      &kp KP_DOT    &kp RBKT       &mo 2
             >;
         };
 
